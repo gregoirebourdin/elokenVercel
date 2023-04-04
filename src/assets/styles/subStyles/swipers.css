@@ -1,0 +1,8 @@
+/*SWIPER CARDS*/
+#card-swiper > .swiper {
+    @apply w-64 sm:w-80 md:w-96
+}
+
+#card-swiper > .swiper .swiper-slide {
+    @apply rounded-ui  h-full bg-white dark:bg-gray-900 flex flex-col items-center justify-center
+}

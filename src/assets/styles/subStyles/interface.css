@@ -1,0 +1,63 @@
+
+/* ***********Selection********* */
+::selection {
+    @apply bg-primary-500/70 text-white
+}
+
+
+/* ***********EditorJs********* */
+.ce-block {
+    @apply prose
+}
+
+.cursor-grab {
+    cursor: grab;
+}
+
+/* ***********Scrollbars********* */
+
+/* Light scroll */
+
+.scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+    display: none;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    @apply py-2 overflow-hidden bg-transparent
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full transition
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400
+
+}
+
+/* Dark scroll*/
+
+.scrollbar-dark::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-button {
+    display: none;
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+    @apply py-2 overflow-hidden bg-transparent
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+    @apply bg-gray-800 rounded-full transition
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-700
+
+}

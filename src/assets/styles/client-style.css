@@ -1,0 +1,125 @@
+
+/* ***********Fonts********* */
+.title-main {
+    @apply font-extrabold text-5xl sm:text-6xl md:text-7xl lg:text-8xl tracking-tighter;
+}
+
+
+
+.title-2 {
+    @apply font-extrabold text-3xl sm:text-4xl tracking-tight;
+}
+
+.title-3 {
+    @apply font-extrabold text-2xl sm:text-3xl tracking-tight;
+}
+
+.title-4 {
+    @apply font-bold text-xl tracking-tight sm:text-2xl leading-tight;
+}
+
+.title-5 {
+    @apply font-bold leading-tight tracking-tight text-base sm:text-lg md:text-xl;
+}
+
+.title-6 {
+    @apply font-bold leading-tight tracking-tight text-base ;
+}
+.heading-1 {
+    @apply text-5xl font-bold text-gray-900 sm:text-6xl font-heading;
+}
+.heading-2 {
+    @apply text-3xl font-bold text-gray-900 sm:text-4xl  font-heading;
+}
+.heading-3 {
+    @apply text-xl font-bold text-gray-900 sm:text-3xl font-heading;
+}
+.heading-4 {
+    @apply text-lg font-bold tracking-wide text-gray-900 sm:text-xl font-heading;
+}
+.heading-5 {
+    @apply text-base sm:text-lg tracking-wider font-semibold font-heading;
+}
+.heading-6 {
+    @apply text-base leading-tight tracking-wider font-semibold font-heading;
+}
+
+.body-1 {
+    @apply text-lg sm:text-xl tracking-tight font-body;
+}
+
+.body-2 {
+    @apply text-base sm:text-lg tracking-tight font-body;
+}
+
+.body-3 {
+    @apply text-sm sm:text-base font-body;
+}
+
+.body-4 {
+    @apply text-xs sm:text-sm font-body;
+}
+
+.body-5 {
+    @apply text-xs font-body;
+}
+
+
+.tag {
+    @apply inline-flex items-center px-2 py-1 whitespace-nowrap rounded-ui text-xs leading-5 font-semibold ;
+}
+
+.tag-primary {
+    @apply tag border border-transparent bg-primary-400 text-primary-50 shadow-primary-500/20 dark:shadow-primary-500/10 shadow-lg dark:text-primary-300 dark:bg-primary-700
+}
+
+.tag-normal {
+    @apply tag border border-transparent bg-white text-gray-600 dark:bg-gray-800 dark:text-gray-400 shadow-gray-900/10 shadow-lg
+}
+
+.tag-outline {
+    @apply tag border border-gray-200 text-gray-500 dark:border-gray-700
+}
+
+/* ***********Button********* */
+.button-white {
+    @apply overflow-hidden rounded-ui bg-white px-5 py-4 text-sm font-semibold hover:bg-white/30 hover:text-white hover:backdrop-blur leading-none text-gray-900 shadow transition;
+}
+
+.button-blur {
+    @apply overflow-hidden backdrop-blur-lg rounded-ui bg-white/30 px-5 py-4 text-sm font-semibold hover:bg-white/50 hover:text-white hover:backdrop-blur leading-none text-white/70 shadow transition;
+}
+
+.button-normal {
+    @apply rounded-ui bg-gray-900 px-5 dark:bg-white dark:text-gray-900 py-4 text-sm font-semibold dark:hover:bg-white/70 hover:bg-gray-900/70 hover:text-white leading-none text-white shadow transition;
+}
+
+.button-primary {
+    @apply rounded-ui bg-gray-900 px-5 dark:bg-primary-700 dark:text-primary-100 py-4 text-sm font-semibold dark:hover:bg-primary-800 hover:bg-primary-500 hover:text-white leading-none text-white shadow transition;
+}
+
+.button-disabled {
+    @apply rounded-ui cursor-not-allowed bg-gray-200 px-5 py-4 text-sm font-semibold leading-none text-white dark:text-gray-700 dark:bg-gray-800 ;
+}
+
+.button-outline {
+    @apply ring-1 rounded-ui ring-gray-900/10 text-gray-700 dark:text-white dark:ring-white/20 dark:hover:ring-white/100 hover:text-gray-900 hover:ring-gray-900/50 px-5 py-4 text-sm font-semibold  leading-none transition;
+}
+
+.button-nav {
+    @apply  rounded-full bg-gradient-to-br from-violet-500 via-fuchsia-500 to-rose-500 px-4 py-3 text-sm font-semibold text-sm leading-none text-white hover:bg-opacity-50 shadow transition-all duration-500;
+}
+
+
+.social-icon {
+    @apply  aspect-w-4 lg:aspect-h-4 aspect-h-4 sm:aspect-h-2 w-full cursor-pointer dark:bg-gray-800 dark:hover:bg-primary-600 overflow-hidden bg-gray-200 text-gray-500  dark:hover:text-white hover:text-white hover:bg-primary-500
+}
+
+button {
+    @apply font-code;
+}
+
+
+
+
+
