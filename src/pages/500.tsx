@@ -1,5 +1,4 @@
 import Link from "next/link";
-import {path} from "@/routes/paths";
 
 export default function Error500() {
   return (
@@ -11,7 +10,7 @@ export default function Error500() {
             <p className="mt-6 text-base leading-7 text-gray-500">Désolé, il semblerait qu'il y ait un problème de notre côté. Merci d'en informer l'éditeur du site à l'adresse support@eloken.com.</p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                  href={path?.root}
+                  href={"/"}
                   className=""
               >
                 <button className="button-primary">

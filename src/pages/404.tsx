@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {path} from "@/routes/paths";
+
 
 export default function Error404() {
   return (
@@ -11,7 +11,7 @@ export default function Error404() {
             <p className="mt-6 text-base leading-7 text-gray-500">Désolé, nous n'avons pas trouvé la page qui correspond à votre demande</p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                  href={path?.root}
+                  href={"/"}
                   className=""
               >
                 <button className="button-primary">
