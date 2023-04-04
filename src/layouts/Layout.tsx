@@ -48,8 +48,6 @@ export default function PublicLayout({children, darkMode, isPageChanging, toggle
                         {isPageChanging && (
                             <Loader darkMode={darkMode}/>
                         )}
-
-
                     </div>
                 </ParallaxProvider>
             )}
